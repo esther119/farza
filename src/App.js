@@ -4,8 +4,8 @@ import Home from "./components/Home";
 import Page0 from "./components/0";
 import Page1 from "./components/1";
 import Page2 from "./components/2.1";
-import Page3 from "./components/3";
-import Page4 from "./components/4";
+import Page3 from "./components/4";
+import Page4 from "./components/3";
 import Page5 from "./components/5";
 import Page6 from "./components/6";
 import Page7 from "./components/7";
@@ -39,7 +39,7 @@ function App() {
     { path: "/8", component: Page8, leftRoute: "/7", rightRoute: "/9" },
     { path: "/9", component: Page9, leftRoute: "/8", rightRoute: "/10" },
     { path: "/10", component: Page10, leftRoute: "/9", rightRoute: "/11" },
-    { path: "/11", component: Page11, leftRoute: "/10", rightRoute: "/dead" }, // No right route for the last page
+    { path: "/11", component: Page11, leftRoute: "/10", rightRoute: "" }, // No right route for the last page
     { path: "/prince", component: Prince, leftRoute: "/2", rightRoute: "" },
     {
       path: "/supervise",
